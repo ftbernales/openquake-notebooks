@@ -1,1 +1,1 @@
-# HMTKNotebooks
+# OpenQuake Notebooks
