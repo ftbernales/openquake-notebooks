@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nrml
+xmlns="http://openquake.org/xmlns/nrml/0.5"
+xmlns:gml="http://www.opengis.net/gml"
+>
+    <sourceModel
+    name="PSHA Area Source"
+    >
+        <sourceGroup
+        rup_interdep="indep"
+        src_interdep="indep"
+        tectonicRegion="Active Shallow Crust"
+        >
+            <areaSource
+            id="4"
+            name="Cagayan Block"
+            >
+                <areaGeometry>
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    121.7356199359350	19.1212699816168 122.6429030920860	19.1212699816168 122.6393901188260	18.8515116045198 122.7434867731720	17.8704778260076 121.8446304451900	17.3129140474386 121.6253253828500	18.2833079136749 121.6587200922190	18.8746920643581 121.7356237620500	19.1212699816168 121.7356199359350	19.1212699816168
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        50.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="4.015536026778985" bValue="0.9112655931428656" maxMag="8.496515603025559" minMag="4.8"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="74.48" probability="0.2857142857142857" rake="-9.58" strike="151.355"/>
+                    <nodalPlane dip="41.0" probability="0.2857142857142857" rake="139.5" strike="227.5"/>
+                    <nodalPlane dip="55.0" probability="0.42857142857142855" rake="169.0" strike="233.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="0.4"/>
+                    <hypoDepth depth="37.5" probability="0.6"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="5"
+            name="Casiguran"
+            >
+                <areaGeometry>
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    122.7434865949520	17.8704777156286 122.7163116486050	17.4234066656626 122.5988069493870	17.0224940475948 122.3073510581890	16.4105783914249 121.9569715912890	15.9817823260208 121.5349975774090	15.6589986898384 121.5115882090650	16.3139462005866 121.8446298707650	17.3129166414008 122.7434865949520	17.8704777156286
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        50.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="2.7597971764239033" bValue="0.6671873715801668" maxMag="8.025630775136452" minMag="4.8"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="69.0" probability="0.2" rake="-32.0" strike="228.0"/>
+                    <nodalPlane dip="15.0" probability="0.4" rake="52.0" strike="149.0"/>
+                    <nodalPlane dip="25.0" probability="0.2" rake="102.0" strike="230.0"/>
+                    <nodalPlane dip="71.0" probability="0.2" rake="168.0" strike="327.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="0.226"/>
+                    <hypoDepth depth="37.5" probability="0.774"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="7"
+            name="Philippine Fault"
+            >
+                <areaGeometry>
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    120.7943551441540	19.1212699816168 121.7356199359350	19.1212699816168 121.6587200922190	18.8746920643581 121.6253253828500	18.2833079136749 121.8446304451900	17.3129140474386 121.5115882090650	16.3139462005866 121.5349975774090	15.6589986898384 121.5385621034820	15.5374704134846 122.8028963513110	15.5497224710346 122.8028963513110	13.6074528137351 122.0469413751810	13.6074528137351 121.7075341652650	13.9073021339602 121.3800079643350	14.3105924049726 120.8461011325290	15.5565741234065 119.8944788407720	17.1798289033471 120.1325407977370	18.0381447167204 120.7329161073750	18.9703753534013 120.7943551441540	19.1212699816168
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        50.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="4.079256317071325" bValue="0.7660317912915855" maxMag="8.584234012846995" minMag="4.8"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="37.0" probability="0.014492753623188406" rake="-112.0" strike="268.0"/>
+                    <nodalPlane dip="72.5" probability="0.14492753623188406" rake="-101.0" strike="88.5"/>
+                    <nodalPlane dip="69.0" probability="0.13043478260869565" rake="-51.0" strike="307.0"/>
+                    <nodalPlane dip="31.0" probability="0.2463768115942029" rake="90.0" strike="35.0"/>
+                    <nodalPlane dip="30.0" probability="0.15942028985507245" rake="62.0" strike="344.0"/>
+                    <nodalPlane dip="69.0" probability="0.07246376811594203" rake="77.0" strike="67.0"/>
+                    <nodalPlane dip="70.0" probability="0.2318840579710145" rake="61.8" strike="317.5"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="0.28"/>
+                    <hypoDepth depth="37.5" probability="0.72"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="8"
+            name="Manila Block"
+            >
+                <areaGeometry>
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    119.8944788405730	17.1798289026286 120.8461011325290	15.5565741234064 121.3800079643350	14.3105924049726 121.7075341652650	13.9073021339602 122.0469413751810	13.6074528137351 121.7193374510730	13.6074528137351 119.8909011438550	14.3115633851090 119.8832909423610	14.3449805026653 119.8552785184930	15.5362210187159 119.8944788405730	17.1798289026286
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        50.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="4.079256317071325" bValue="0.7660317912915855" maxMag="8.584234012846995" minMag="4.8"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="37.0" probability="0.014492753623188406" rake="-112.0" strike="268.0"/>
+                    <nodalPlane dip="72.5" probability="0.14492753623188406" rake="-101.0" strike="88.5"/>
+                    <nodalPlane dip="69.0" probability="0.13043478260869565" rake="-51.0" strike="307.0"/>
+                    <nodalPlane dip="31.0" probability="0.2463768115942029" rake="90.0" strike="35.0"/>
+                    <nodalPlane dip="30.0" probability="0.15942028985507245" rake="62.0" strike="344.0"/>
+                    <nodalPlane dip="69.0" probability="0.07246376811594203" rake="77.0" strike="67.0"/>
+                    <nodalPlane dip="70.0" probability="0.2318840579710145" rake="61.8" strike="317.5"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="0.28"/>
+                    <hypoDepth depth="37.5" probability="0.72"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="9"
+            name="Lubang"
+            >
+                <areaGeometry>
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    119.8908956492080	14.3115875144191 121.7193374510730	13.6074528137351 120.0509920700540	13.6074528137351 119.8908956492080	14.3115875144191
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        50.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="4.079256317071325" bValue="0.7660317912915855" maxMag="8.584234012846995" minMag="4.8"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="37.0" probability="0.014492753623188406" rake="-112.0" strike="268.0"/>
+                    <nodalPlane dip="72.5" probability="0.14492753623188406" rake="-101.0" strike="88.5"/>
+                    <nodalPlane dip="69.0" probability="0.13043478260869565" rake="-51.0" strike="307.0"/>
+                    <nodalPlane dip="31.0" probability="0.2463768115942029" rake="90.0" strike="35.0"/>
+                    <nodalPlane dip="30.0" probability="0.15942028985507245" rake="62.0" strike="344.0"/>
+                    <nodalPlane dip="69.0" probability="0.07246376811594203" rake="77.0" strike="67.0"/>
+                    <nodalPlane dip="70.0" probability="0.2318840579710145" rake="61.8" strike="317.5"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="0.28"/>
+                    <hypoDepth depth="37.5" probability="0.72"/>
+                </hypoDepthDist>
+            </areaSource>
+        </sourceGroup>
+        <sourceGroup
+        rup_interdep="indep"
+        src_interdep="indep"
+        tectonicRegion="Subduction Interface"
+        >
+            <areaSource
+            id="1"
+            name="Shallow MT1"
+            >
+                <areaGeometry>
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    118.5601180934060	16.5810092486762 118.7304874890260	17.7193945192815 118.8888371456490	18.8175741160487 119.2475873333030	19.1212699816168 120.7943551441540	19.1212699816168 120.7329161073750	18.9703753534013 120.1325407977370	18.0381447167204 119.8944788405730	17.1798289026286 119.8820243368990	16.6591393775674 119.8734205528910	16.2986065805826 118.5601180934060	16.5810092486762
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        50.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    StrasserInterface
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="4.487233981304425" bValue="0.8682558025483863" maxMag="7.871157744190625" minMag="4.8"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="38.0" probability="0.16923076923076924" rake="-89.0" strike="44.0"/>
+                    <nodalPlane dip="39.5" probability="0.03076923076923077" rake="-111.5" strike="338.0"/>
+                    <nodalPlane dip="64.0" probability="0.1076923076923077" rake="-78.0" strike="39.88"/>
+                    <nodalPlane dip="73.0" probability="0.06153846153846154" rake="-89.5" strike="250.0"/>
+                    <nodalPlane dip="28.0" probability="0.38461538461538464" rake="96.0" strike="28.0"/>
+                    <nodalPlane dip="25.5" probability="0.12307692307692308" rake="67.5" strike="350.0"/>
+                    <nodalPlane dip="56.675" probability="0.03076923076923077" rake="81.52" strike="64.605"/>
+                    <nodalPlane dip="58.195" probability="0.09230769230769231" rake="66.0" strike="353.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="0.414"/>
+                    <hypoDepth depth="37.5" probability="0.586"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="2"
+            name="Shallow MT2"
+            >
+                <areaGeometry>
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    118.6430348211100	14.0141140305134 118.4371560384490	14.6277941390546 118.4499313168860	15.6974504002830 118.5601180934060	16.5810092486762 119.8619668789950	16.3017184446023 119.8552785184930	15.5362210187159 119.8832909423610	14.3449805026653 119.8907342888100	14.3115236386115 118.6430348211100	14.0141140305134
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        50.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    StrasserInterface
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="4.487233981304425" bValue="0.8682558025483863" maxMag="7.871157744190625" minMag="4.8"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="38.0" probability="0.16923076923076924" rake="-89.0" strike="44.0"/>
+                    <nodalPlane dip="39.5" probability="0.03076923076923077" rake="-111.5" strike="338.0"/>
+                    <nodalPlane dip="64.0" probability="0.1076923076923077" rake="-78.0" strike="39.88"/>
+                    <nodalPlane dip="73.0" probability="0.06153846153846154" rake="-89.5" strike="250.0"/>
+                    <nodalPlane dip="28.0" probability="0.38461538461538464" rake="96.0" strike="28.0"/>
+                    <nodalPlane dip="25.5" probability="0.12307692307692308" rake="67.5" strike="350.0"/>
+                    <nodalPlane dip="56.675" probability="0.03076923076923077" rake="81.52" strike="64.605"/>
+                    <nodalPlane dip="58.195" probability="0.09230769230769231" rake="66.0" strike="353.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="0.414"/>
+                    <hypoDepth depth="37.5" probability="0.586"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="3"
+            name="Shallow MT3"
+            >
+                <areaGeometry>
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    118.7804916464450	13.6072297753640 118.6430348211100	14.0141140305134 119.8909011438550	14.3115633851090 120.0600000000000	13.6090000000000 118.7804916464450	13.6072297753640
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        50.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    StrasserInterface
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="4.487233981304425" bValue="0.8682558025483863" maxMag="7.871157744190625" minMag="4.8"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="38.0" probability="0.16923076923076924" rake="-89.0" strike="44.0"/>
+                    <nodalPlane dip="39.5" probability="0.03076923076923077" rake="-111.5" strike="338.0"/>
+                    <nodalPlane dip="64.0" probability="0.1076923076923077" rake="-78.0" strike="39.88"/>
+                    <nodalPlane dip="73.0" probability="0.06153846153846154" rake="-89.5" strike="250.0"/>
+                    <nodalPlane dip="28.0" probability="0.38461538461538464" rake="96.0" strike="28.0"/>
+                    <nodalPlane dip="25.5" probability="0.12307692307692308" rake="67.5" strike="350.0"/>
+                    <nodalPlane dip="56.675" probability="0.03076923076923077" rake="81.52" strike="64.605"/>
+                    <nodalPlane dip="58.195" probability="0.09230769230769231" rake="66.0" strike="353.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="0.414"/>
+                    <hypoDepth depth="37.5" probability="0.586"/>
+                </hypoDepthDist>
+            </areaSource>
+            <areaSource
+            id="6"
+            name="Shallow East Luzon Trough"
+            >
+                <areaGeometry>
+                    <gml:Polygon>
+                        <gml:exterior>
+                            <gml:LinearRing>
+                                <gml:posList>
+                                    121.5385621034820	15.5374704134846 121.5349975774090	15.6589986898384 121.9569715912890	15.9817823260208 122.3073510581890	16.4105783914249 122.5988069493870	17.0224940475948 122.7163116486050	17.4234066656626 122.7434865949520	17.8704777156286 122.8028963513110	17.8324241795095 122.8028963513110	15.5497224710346 121.5385621034820	15.5374704134846
+                                </gml:posList>
+                            </gml:LinearRing>
+                        </gml:exterior>
+                    </gml:Polygon>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        50.0
+                    </lowerSeismoDepth>
+                </areaGeometry>
+                <magScaleRel>
+                    StrasserInterface
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="4.6939350772996" bValue="1.0627847317618353" maxMag="6.532483005690469" minMag="4.8"/>
+                <nodalPlaneDist>
+                    <nodalPlane dip="43.42" probability="0.14285714285714285" rake="-88.07" strike="180.27"/>
+                    <nodalPlane dip="32.695" probability="0.2857142857142857" rake="52.205" strike="153.105"/>
+                    <nodalPlane dip="30.0" probability="0.5714285714285714" rake="120.0" strike="208.0"/>
+                </nodalPlaneDist>
+                <hypoDepthDist>
+                    <hypoDepth depth="12.5" probability="0.222"/>
+                    <hypoDepth depth="37.5" probability="0.778"/>
+                </hypoDepthDist>
+            </areaSource>
+        </sourceGroup>
+    </sourceModel>
+</nrml>
