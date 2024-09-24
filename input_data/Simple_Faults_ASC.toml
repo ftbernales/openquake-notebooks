@@ -1,0 +1,1010 @@
+Fault_Model_ID = 1
+Fault_Model_Name = "Faults"
+[[Fault_Model]]
+ID = 1
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "Tubao Fault"
+Rake = 90
+Slip_Type = "Reverse-Dextral,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.1
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.1
+b_value = [ 0.766, 0.047,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.1
+b_value = [ 0.766, 0.047,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 120.5319092, 16.46014631, 120.537227, 16.73135454, 120.5398859, 16.95204358,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 55
+[Fault_Model.Slip]
+Value = [ 4.8, 2.5, 5.0,]
+Weight = [ 0.6, 0.2, 0.2,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 2
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "West Ilocos Fault System E"
+Rake = 90
+Slip_Type = "Sinistral-Reverse,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.5
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.2
+b_value = [ 0.766, 0.047,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.2
+b_value = [ 0.766, 0.047,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 120.6356348, 17.88789127, 120.6949731, 17.91086856, 120.7130529, 17.9290703, 120.7166266, 17.94722967, 120.7409883, 17.98052061, 120.763089, 18.02424989, 120.7942271, 18.03857671, 120.8069581, 18.07758553, 120.8101317, 18.14067791, 120.7884058, 18.21116946, 120.7955148, 18.26771504, 120.7902193, 18.34205126, 120.8017351, 18.38728045, 120.8091887, 18.41752998, 120.8110566, 18.44714477,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 45
+[Fault_Model.Slip]
+Value = [ 14.9, 7.5, 22.5,]
+Weight = [ 0.6, 0.2, 0.2,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 3
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "West Ilocos Fault System W"
+Rake = 90
+Slip_Type = "Reverse,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.4
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.6
+b_value = [ 0.766, 0.047,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.6
+b_value = [ 0.766, 0.047,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 120.4337633, 17.45080748, 120.4410358, 17.47002187, 120.4410345, 17.47011086, 120.4431393, 17.4787716, 120.4488237, 17.4976649, 120.4489284, 17.49775129, 120.4534023, 17.52270893, 120.4570315, 17.54027224, 120.4581689, 17.54976346, 120.4576465, 17.55195835, 120.4605112, 17.55861549, 120.462643, 17.56229659, 120.4633605, 17.56424081, 120.4671968, 17.57813565, 120.4695929, 17.58758213, 120.4735375, 17.60695482, 120.4746159, 17.61562603, 120.4761474, 17.62211119, 120.4827061, 17.63899147, 120.4842984, 17.64524857, 120.487686, 17.65485704, 120.4882277, 17.65819459, 120.4904055, 17.66727969, 120.4915138, 17.67506739, 120.4939019, 17.6834585, 120.4965835, 17.68996216, 120.4990878, 17.70677603, 120.500043, 17.72708987, 120.5065557, 17.78445016, 120.5090729, 17.82433617, 120.5100044, 17.83176687, 120.5111051, 17.84148336, 120.5112729, 17.84170283, 120.5123918, 17.85517391, 120.512939, 17.8715167, 120.5137216, 17.8783323, 120.5158942, 17.88575628, 120.5172448, 17.88967441, 120.5196346, 17.89813175, 120.5225466, 17.90598489, 120.52411, 17.91048397, 120.5356595, 17.91707439, 120.5450908, 17.93791023, 120.5529163, 17.94500915, 120.5671818, 17.97101095, 120.5745958, 17.97641091, 120.5880139, 17.99582805, 120.5940266, 18.00769363, 120.599524, 18.01604761, 120.611207, 18.02567441, 120.61462, 18.03006012, 120.6207542, 18.0428719, 120.6317006, 18.0814863, 120.663274, 18.13964405, 120.6644995, 18.14775758, 120.6656982, 18.15056909, 120.6680655, 18.16547189, 120.6683979, 18.17356883, 120.6724295, 18.18226718, 120.6753982, 18.22675841, 120.6805245, 18.24325064, 120.6822401, 18.26446948, 120.6845105, 18.27793945, 120.6983009, 18.29608655, 120.7008685, 18.31265011, 120.7058074, 18.33091323, 120.7077597, 18.33619339, 120.7080748, 18.33828233, 120.7080662, 18.33962113, 120.7099737, 18.35363191, 120.7147237, 18.37372313, 120.7145154, 18.37628303, 120.7155637, 18.38484311, 120.7159132, 18.39130665, 120.7157385, 18.39846946, 120.7215039, 18.40283675, 120.7265704, 18.40755351, 120.7291819, 18.41423221, 120.7286819, 18.41783252, 120.728988, 18.42451502, 120.7278984, 18.43405873, 120.7263048, 18.43972986, 120.7253773, 18.44404663, 120.7255348, 18.4651924, 120.7251728, 18.46618701, 120.7202814, 18.47463698, 120.7174774, 18.48335747, 120.7150405, 18.49490163,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 35
+[Fault_Model.Slip]
+Value = [ 16.4, 8.2, 24.6,]
+Weight = [ 0.6, 0.2, 0.2,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 2
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "West Ilocos Fault System E"
+Rake = 90
+Slip_Type = "Sinistral-Reverse,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.5
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.2
+b_value = [ 0.766, 0.047,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.2
+b_value = [ 0.766, 0.047,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 120.6356348, 17.88789127, 120.6949731, 17.91086856, 120.7130529, 17.9290703, 120.7166266, 17.94722967, 120.7409883, 17.98052061, 120.763089, 18.02424989, 120.7942271, 18.03857671, 120.8069581, 18.07758553, 120.8101317, 18.14067791, 120.7884058, 18.21116946, 120.7955148, 18.26771504, 120.7902193, 18.34205126, 120.8017351, 18.38728045, 120.8091887, 18.41752998, 120.8110566, 18.44714477,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 45
+[Fault_Model.Slip]
+Value = [ 14.9, 7.5, 22.5,]
+Weight = [ 0.6, 0.2, 0.2,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 3
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "West Ilocos Fault System W"
+Rake = 90
+Slip_Type = "Reverse,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.4
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.6
+b_value = [ 0.766, 0.047,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.6
+b_value = [ 0.766, 0.047,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 120.4337633, 17.45080748, 120.4410358, 17.47002187, 120.4410345, 17.47011086, 120.4431393, 17.4787716, 120.4488237, 17.4976649, 120.4489284, 17.49775129, 120.4534023, 17.52270893, 120.4570315, 17.54027224, 120.4581689, 17.54976346, 120.4576465, 17.55195835, 120.4605112, 17.55861549, 120.462643, 17.56229659, 120.4633605, 17.56424081, 120.4671968, 17.57813565, 120.4695929, 17.58758213, 120.4735375, 17.60695482, 120.4746159, 17.61562603, 120.4761474, 17.62211119, 120.4827061, 17.63899147, 120.4842984, 17.64524857, 120.487686, 17.65485704, 120.4882277, 17.65819459, 120.4904055, 17.66727969, 120.4915138, 17.67506739, 120.4939019, 17.6834585, 120.4965835, 17.68996216, 120.4990878, 17.70677603, 120.500043, 17.72708987, 120.5065557, 17.78445016, 120.5090729, 17.82433617, 120.5100044, 17.83176687, 120.5111051, 17.84148336, 120.5112729, 17.84170283, 120.5123918, 17.85517391, 120.512939, 17.8715167, 120.5137216, 17.8783323, 120.5158942, 17.88575628, 120.5172448, 17.88967441, 120.5196346, 17.89813175, 120.5225466, 17.90598489, 120.52411, 17.91048397, 120.5356595, 17.91707439, 120.5450908, 17.93791023, 120.5529163, 17.94500915, 120.5671818, 17.97101095, 120.5745958, 17.97641091, 120.5880139, 17.99582805, 120.5940266, 18.00769363, 120.599524, 18.01604761, 120.611207, 18.02567441, 120.61462, 18.03006012, 120.6207542, 18.0428719, 120.6317006, 18.0814863, 120.663274, 18.13964405, 120.6644995, 18.14775758, 120.6656982, 18.15056909, 120.6680655, 18.16547189, 120.6683979, 18.17356883, 120.6724295, 18.18226718, 120.6753982, 18.22675841, 120.6805245, 18.24325064, 120.6822401, 18.26446948, 120.6845105, 18.27793945, 120.6983009, 18.29608655, 120.7008685, 18.31265011, 120.7058074, 18.33091323, 120.7077597, 18.33619339, 120.7080748, 18.33828233, 120.7080662, 18.33962113, 120.7099737, 18.35363191, 120.7147237, 18.37372313, 120.7145154, 18.37628303, 120.7155637, 18.38484311, 120.7159132, 18.39130665, 120.7157385, 18.39846946, 120.7215039, 18.40283675, 120.7265704, 18.40755351, 120.7291819, 18.41423221, 120.7286819, 18.41783252, 120.728988, 18.42451502, 120.7278984, 18.43405873, 120.7263048, 18.43972986, 120.7253773, 18.44404663, 120.7255348, 18.4651924, 120.7251728, 18.46618701, 120.7202814, 18.47463698, 120.7174774, 18.48335747, 120.7150405, 18.49490163,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 35
+[Fault_Model.Slip]
+Value = [ 16.4, 8.2, 24.6,]
+Weight = [ 0.6, 0.2, 0.2,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 4
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "Bangui Fault"
+Rake = 45
+Slip_Type = "Sinistral-Reverse,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.1
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.5
+b_value = [ 0.766, 0.047,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.5
+b_value = [ 0.766, 0.047,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 121.3183031, 17.59220476, 121.3217307, 17.7474856, 121.2466327, 17.83100532, 121.2161537, 17.92758244, 121.2163552, 17.95991614, 121.1599339, 18.0956034, 121.1177497, 18.17018161, 121.0975477, 18.23737775, 121.0816869, 18.25924903, 121.06982, 18.2863329, 120.9790798, 18.35406991, 120.9345214, 18.39259561, 120.8985882, 18.45794246, 120.912726, 18.52367712, 120.9220273, 18.56058156,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 60
+[Fault_Model.Slip]
+Value = [ 8.9, 4.5, 13.5,]
+Weight = [ 0.6, 0.2, 0.2,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 5
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "Abra River Fault"
+Rake = 90
+Slip_Type = "Sinistral-Reverse,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.3
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.5
+b_value = [ 0.766, 0.047,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.5
+b_value = [ 0.766, 0.047,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 120.7090183, 16.95946281, 120.6892661, 16.98279548, 120.6791103, 17.00528237, 120.6739116, 17.15680838, 120.6811162, 17.22619133, 120.7281444, 17.57004154, 120.7363128, 17.7887577, 120.7492697, 17.84014814,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 65.0
+[Fault_Model.Slip]
+Value = [ 2.0, 1.0, 3.0,]
+Weight = [ 0.6, 0.2, 0.2,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 6
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "Hapap Fault"
+Rake = 135
+Slip_Type = "Sinistral-Reverse,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.1
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.6
+b_value = [ 0.766, 0.047,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.6
+b_value = [ 0.766, 0.047,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 121.25623016437498, 17.427684306761364, 121.2631078, 17.38810387, 121.2152475, 17.16741482, 121.1009147, 17.03181071, 121.0503955, 16.99990386, 120.9493571, 16.50800659, 120.9174503, 16.42558056, 120.9546749, 16.27668193, 120.9493571, 16.21020932,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 60
+[Fault_Model.Slip]
+Value = [ 8.8, 4.5, 13.5,]
+Weight = [ 0.6, 0.2, 0.2,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 7
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "East Cordillera Fault"
+Rake = 90
+Slip_Type = "Reverse,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.1
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.4
+b_value = [ 0.766, 0.047,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.4
+b_value = [ 0.766, 0.047,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 121.5398044, 17.34710258, 121.5408477, 17.3412454, 121.5411532, 17.3341261, 121.5397808, 17.32645596, 121.5398985, 17.32338478, 121.5391872, 17.31748063, 121.5388028, 17.31332383, 121.5384286, 17.30809586, 121.538763, 17.29887999, 121.5396621, 17.29546606, 121.5401914, 17.27046797, 121.5384675, 17.26919686, 121.5392961, 17.26327851, 121.5396474, 17.25887608, 121.5443523, 17.22027903, 121.5434023, 17.20534594, 121.5511802, 17.15992011, 121.5553762, 17.15116504, 121.5618864, 17.07032888, 121.5634364, 17.0152247, 121.5649202, 17.00992501, 121.5624061, 16.94212789, 121.5567667, 16.92337718, 121.5498296, 16.90761022, 121.5334526, 16.87567925, 121.5069536, 16.83452998, 121.4882602, 16.80828909, 121.4597273, 16.75967999, 121.4427429, 16.72735944, 121.4360011, 16.71830686, 121.4093044, 16.67886825,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 35.0
+[Fault_Model.Slip]
+Value = [ 4.0, 2.0, 6.0,]
+Weight = [ 0.6, 0.2, 0.2,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = "008"
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "Digdig Fault"
+Rake = 90
+Slip_Type = "Sinistral,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.0
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.9
+b_value = [ 0.766, 0.047,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.9
+b_value = [ 0.766, 0.047,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 121.3583976, 15.41864528, 121.3229164, 15.44778425, 121.3153522, 15.47552524, 121.1832398, 15.60630606, 121.1407982, 15.66646342, 121.0997348, 15.71486238, 121.0703373, 15.75952506, 121.0158297, 15.87385794, 120.9702888, 15.95647657, 120.9479926, 16.05412128, 120.9147914, 16.11714768, 120.8815551, 16.24610453, 120.896179, 16.30194151,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 90
+[Fault_Model.Slip]
+Value = [ 8.0, 17.0, 22.0, 27.0, 37.0,]
+Weight = [ 0.3, 0.5, 0.1, 0.05, 0.05,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = "009"
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "Ilagan-San Pablo"
+Rake = 135
+Slip_Type = "Reverse,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.1
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.0
+b_value = [ 0.667, 0.116,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.0
+b_value = [ 0.667, 0.116,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 122.016931, 17.08766793, 121.9454734, 17.2636458, 121.900679, 17.32123855, 121.8964129, 17.44708939,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 35.0
+[Fault_Model.Slip]
+Value = [ 2.0, 1.0, 3.0,]
+Weight = [ 0.6, 0.2, 0.2,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 8
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "Ambuklao Fault"
+Rake = 0
+Slip_Type = "Sinistral-Reverse,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.1
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.3
+b_value = [ 0.766, 0.047,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.3
+b_value = [ 0.766, 0.047,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 120.8986099, 16.3189396, 120.8661781, 16.42216883, 120.8483177, 16.50401502, 120.8503294, 16.53821374, 120.8138675, 16.67827761, 120.8136465, 16.70932254, 120.7894757, 16.74491482, 120.7586718, 16.85027705, 120.7559057, 16.88447577, 120.7166777, 16.97726494,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 60
+[Fault_Model.Slip]
+Value = [ 18.6, 9.0, 27.0,]
+Weight = [ 0.6, 0.2, 0.2,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 9
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "Casiguran-Dinalungan-Dipaculao-Palanan-Dinapigue Fault"
+Rake = 45
+Slip_Type = "Reverse,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.6
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.8
+b_value = [ 0.667, 0.116,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.8
+b_value = [ 0.667, 0.116,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 122.5670906288532, 17.22496624537604, 122.53184247842165, 17.11397826757086, 122.51407274969166, 17.029207922318086, 122.42027188655973, 16.794997071516608, 122.3527614827373, 16.666312191738566, 122.27884232429092, 16.528888101109708, 122.2453918, 16.50846731, 122.2445012, 16.50793708, 122.237821, 16.50273218, 122.2349736, 16.50017895, 122.2333661, 16.49897671, 122.2312317, 16.49773149, 122.2304348, 16.49721656, 122.2293414, 16.4962892, 122.228271, 16.49516306, 122.2199032, 16.48483348, 122.2148512, 16.47562909, 122.2092057, 16.4667123, 122.1880479, 16.44185439, 122.1753531, 16.42226972, 122.1405764, 16.38057905, 122.1370702, 16.3768547, 122.1321917, 16.36583926, 122.1197152, 16.35060897, 122.1170968, 16.34592881, 122.1111704, 16.3401782, 122.108106, 16.33643738, 122.1034577, 16.32695206, 122.1019189, 16.32429124, 122.1003464, 16.31762897, 122.0970983, 16.30661405, 122.0962645, 16.29142085, 122.0941537, 16.28328661, 122.0897353, 16.27272653, 122.0698426, 16.2322828, 122.0650702, 16.22774446, 122.0636686, 16.2257182, 122.0607814, 16.22295125, 122.0512806, 16.21598167, 122.0465342, 16.21281653, 122.0415078, 16.2091412, 122.035973, 16.20580058, 122.03152, 16.20206357, 122.028722, 16.19830624, 122.0243448, 16.19323655, 122.0182285, 16.1871124, 122.0130889, 16.18081482, 122.0088529, 16.17712841, 122.0058552, 16.17354839, 122.0021426, 16.16973933, 121.93262392108501, 16.10503637484584, 121.82513162762015, 16.03337484586927, 121.76599630086307, 15.989096177558542, 121.71268711467317, 15.945691430332895, 121.65937792848331, 15.909569358816247,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 35.0
+[Fault_Model.Slip]
+Value = [ 2.0, 1.0, 4.0,]
+Weight = [ 0.6, 0.2, 0.2,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 10
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "San Jose Fault"
+Rake = 45
+Slip_Type = "Reverse-Sinistral,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.2
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.1
+b_value = [ 0.766, 0.047,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.1
+b_value = [ 0.766, 0.047,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 120.7977996, 16.09853535, 120.8412779, 15.99691982, 120.923844, 15.8714526, 121.0025352, 15.7807963, 121.0756551, 15.70501753,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 55
+[Fault_Model.Slip]
+Value = [ 3.2, 1.5, 4.5,]
+Weight = [ 0.6, 0.2, 0.2,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 11
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "Pugo-San Manuel Fault"
+Rake = 90
+Slip_Type = "Sinistral-Reverse,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.3
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.2
+b_value = [ 0.766, 0.047,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.2
+b_value = [ 0.766, 0.047,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 120.8071057, 16.01876822, 120.648901, 16.07992302, 120.5717927, 16.15171343, 120.5106379, 16.20755042, 120.51168393028355, 16.233960994730232, 120.42035762403202, 16.40326591631963,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 65
+[Fault_Model.Slip]
+Value = [ 3.4, 1.0, 5.0,]
+Weight = [ 0.6, 0.2, 0.2,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 12
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "Chico Fault"
+Rake = 90
+Slip_Type = "Reverse-Dextral,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.3
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.2
+b_value = [ 0.766, 0.047,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.2
+b_value = [ 0.766, 0.047,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 121.4359366, 17.68590114, 121.2663271, 17.48527275, 121.245818, 17.41400665, 121.216909, 17.38111904, 121.1524702, 17.26311592, 121.0919933, 17.20462559,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 65
+[Fault_Model.Slip]
+Value = [ 2.0, 1.0, 3.0,]
+Weight = [ 0.6, 0.2, 0.2,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 13
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "East Zambales Fault"
+Rake = 0
+Slip_Type = "Reverse-Sinistral,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.2
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.4
+b_value = [ 0.766, 0.047,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.4
+b_value = [ 0.766, 0.047,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 120.1607349, 16.01773813, 120.1804966, 15.97077488, 120.1977623, 15.9358539, 120.2506908, 15.85277165, 120.298798, 15.75282649, 120.3148408, 15.71790554, 120.3469087, 15.6517065, 120.3580781, 15.61313973, 120.3765868, 15.57340206, 120.3938175, 15.53656424, 120.4255159, 15.45302822, 120.4497176, 15.39854945, 120.4627164, 15.37675872,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 65
+[Fault_Model.Slip]
+Value = [ 2.0, 1.0, 3.0,]
+Weight = [ 0.6, 0.2, 0.2,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 14
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "Iba Fault"
+Rake = 45
+Slip_Type = "Reverse-Sinistral,"
+Slip_Completeness_Factor = "1,"
+Aseismic = 0.25
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.0
+b_value = [ 0.766, 0.047,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.0
+b_value = [ 0.766, 0.047,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 120.2222315, 15.18862482, 120.2003225, 15.20936362, 120.1240388, 15.24513217, 120.0594468, 15.33384216, 120.0376473, 15.37785863, 119.968464, 15.62616792, 119.9636246, 15.6439837, 119.9825136, 15.65038688, 119.9683494, 15.71292445, 119.9553438, 15.78158485, 119.9414124, 15.84614548, 119.9547361, 15.85768998, 119.9106453, 15.89794812,]
+Upper_Depth = 0
+Lower_Depth = 30
+Dip = 65
+[Fault_Model.Slip]
+Value = [ 2.0, 1.0, 3.0,]
+Weight = [ 0.6, 0.2, 0.2,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 15
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "West Valley Fault"
+Rake = 0.0
+Slip_Type = "Strikeslip"
+Slip_Completeness_Factor = 1.0
+Aseismic = 0.02
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.2
+b_value = [ 0.313, 0.922,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Maximum_Magnitude = 7.2
+Minimum_Magnitude = 4.8
+b_value = [ 0.313, 0.922,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 121.053168, 14.17022148, 121.0413762, 14.19176247, 121.046193, 14.21734547, 121.0400986, 14.25356815, 121.0404498, 14.32828173, 121.0474568, 14.42331193, 121.0574187, 14.52583089, 121.0802395, 14.63251614, 121.1383568, 14.76058873, 121.1472366, 14.79273591, 121.1604828, 14.8589442, 121.1824943, 14.91851788, 121.1944125, 14.96467329, 121.201101, 14.99834189,]
+Upper_Depth = 0.0
+Lower_Depth = 30.0
+Dip = 70.0
+[Fault_Model.Slip]
+Value = [ 3.0, 6.0, 10.0, 12.0, 20.0,]
+Weight = [ 0.15, 0.25, 0.25, 0.25, 0.1,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = "019"
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "East Valley Fault"
+Rake = 0.0
+Slip_Type = "Strikeslip"
+Slip_Completeness_Factor = 1.0
+Aseismic = 0.02
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 6.3
+b_value = [ 0.313, 0.922,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Maximum_Magnitude = 6.3
+Minimum_Magnitude = 4.8
+b_value = [ 0.313, 0.922,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 121.2049147, 14.7908208, 121.1792726, 14.75669076, 121.1697361, 14.73977127, 121.1522415, 14.71354612, 121.1488223, 14.71038293, 121.1435454, 14.69806986, 121.1426827, 14.69328887, 121.1402949, 14.68853823, 121.1392066, 14.68511005,]
+Upper_Depth = 0.0
+Lower_Depth = 30.0
+Dip = 90.0
+[Fault_Model.Slip]
+Value = [ 3.0, 7.5, 10.0, 12.0, 20.0,]
+Weight = [ 0.2, 0.25, 0.25, 0.25, 0.05,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 16
+Tectonic_Region = "Active Shallow Crust"
+Fault_Name = "PFZ Digdig Segment"
+Rake = 0.0
+Slip_Type = "Strikeslip"
+Slip_Completeness_Factor = 1.0
+Aseismic = 0.0
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 7.9
+b_value = [ 0.825, 0.068,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Maximum_Magnitude = 7.9
+Minimum_Magnitude = 4.8
+b_value = [ 0.825, 0.068,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 120.9522840052549, 16.03948757152395, 120.9560784457814, 16.01709528136498, 120.9800483117896, 15.94422851171614, 121.0706727487907, 15.77154202346827, 121.0821233895607, 15.74048206011421, 121.1200081619424, 15.69209629897544, 121.2246074829621, 15.56890356423924, 121.2860341558586, 15.51775003654325, 121.355741468194, 15.42724402540164, 121.3924526006993, 15.37601320891151,]
+Upper_Depth = 0.0
+Lower_Depth = 30.0
+Dip = 90.0
+[Fault_Model.Slip]
+Value = [ 8.0, 17.0, 22.0, 27.0, 37.0,]
+Weight = [ 0.3, 0.5, 0.1, 0.05, 0.05,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "WC1994",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
