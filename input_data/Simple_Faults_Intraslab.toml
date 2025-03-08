@@ -1,0 +1,290 @@
+Fault_Model_ID = 3
+Fault_Model_Name = "Faults Intraslab"
+[[Fault_Model]]
+ID = 20
+Tectonic_Region = "Subduction Intraslab"
+Fault_Name = "Mid Manila Trench 1"
+Rake = 95.0
+Slip_Type = "Reverse"
+Slip_Completeness_Factor = 1.0
+Aseismic = 0.99
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 8.0
+b_value = [ 0.924, 0.359,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Maximum_Magnitude = 8.0
+Minimum_Magnitude = 4.8
+b_value = [ 0.924, 0.359,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 120.056488139794, 20.4888291113274, 120.248077953476, 19.9054132051134, 120.309941095562, 19.5695571601802, 120.219605180908, 19.3186725607661, 120.001607051998, 19.0850858261459, 119.733040431811, 18.7801639580133, 119.636256620232, 18.3047696380102, 119.450875198388, 18.0379783542777, 119.183567567656, 17.5663883580338, 119.078799161775, 17.1497271626316, 119.080829322256, 16.7986816817357, 119.153572081965, 16.4295006746644,]
+Upper_Depth = 50.0
+Lower_Depth = 100.0
+Dip = 47.71243516
+[Fault_Model.Slip]
+Value = [ 4.0, 20.0, 25.0, 100.0, 116.0,]
+Weight = [ 0.2, 0.25, 0.35, 0.1, 0.1,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "StrasserIntraslab",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 21
+Tectonic_Region = "Subduction Intraslab"
+Fault_Name = "Deep Manila Trench 1"
+Rake = 95.0
+Slip_Type = "Reverse"
+Slip_Completeness_Factor = 1.0
+Aseismic = 0.99
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 8.0
+b_value = [ 0.924, 0.359,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Maximum_Magnitude = 8.0
+Minimum_Magnitude = 4.8
+b_value = [ 0.924, 0.359,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 120.056488139794, 20.4888291113274, 120.248077953476, 19.9054132051134, 120.309941095562, 19.5695571601802, 120.219605180908, 19.3186725607661, 120.001607051998, 19.0850858261459, 119.733040431811, 18.7801639580133, 119.636256620232, 18.3047696380102, 119.450875198388, 18.0379783542777, 119.183567567656, 17.5663883580338, 119.078799161775, 17.1497271626316, 119.080829322256, 16.7986816817357, 119.153572081965, 16.4295006746644,]
+Upper_Depth = 100.0
+Lower_Depth = 200.0
+Dip = 47.71243516
+[Fault_Model.Slip]
+Value = [ 4.0, 20.0, 25.0, 100.0, 116.0,]
+Weight = [ 0.2, 0.25, 0.35, 0.1, 0.1,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "StrasserIntraslab",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 22
+Tectonic_Region = "Subduction Intraslab"
+Fault_Name = "Mid Manila Trench 2"
+Rake = 98.0
+Slip_Type = "Reverse"
+Slip_Completeness_Factor = 1.0
+Aseismic = 0.99
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 8.0
+b_value = [ 1.21, 0.182,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Maximum_Magnitude = 8.0
+Minimum_Magnitude = 4.8
+b_value = [ 1.21, 0.182,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 119.153572081965, 16.4295006746644, 119.161115880619, 16.1840803955984, 119.048237064563, 15.8212857692178, 119.143208279443, 15.5128191474036, 119.012894916887, 15.2132701218065, 119.054573575693, 14.6418506764076, 119.113289191592, 14.0644876276553,]
+Upper_Depth = 50.0
+Lower_Depth = 100.0
+Dip = 55.01567123
+[Fault_Model.Slip]
+Value = [ 4.0, 20.0, 25.0, 100.0, 116.0,]
+Weight = [ 0.2, 0.25, 0.35, 0.1, 0.1,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "StrasserIntraslab",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = 23
+Tectonic_Region = "Subduction Intraslab"
+Fault_Name = "Deep Manila Trench 2"
+Rake = 98.0
+Slip_Type = "Reverse"
+Slip_Completeness_Factor = 1.0
+Aseismic = 0.99
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 8.0
+b_value = [ 0.486, 0.262,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Maximum_Magnitude = 8.0
+Minimum_Magnitude = 4.8
+b_value = [ 0.486, 0.262,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 119.153572081965, 16.4295006746644, 119.161115880619, 16.1840803955984, 119.048237064563, 15.8212857692178, 119.143208279443, 15.5128191474036, 119.012894916887, 15.2132701218065, 119.054573575693, 14.6418506764076, 119.113289191592, 14.0644876276553,]
+Upper_Depth = 100.0
+Lower_Depth = 250.0
+Dip = 63.19709449
+[Fault_Model.Slip]
+Value = [ 4.0, 20.0, 25.0, 100.0, 116.0,]
+Weight = [ 0.2, 0.25, 0.35, 0.1, 0.1,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "StrasserIntraslab",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = "028"
+Tectonic_Region = "Subduction Intraslab"
+Fault_Name = "Mid Manila Trench 3"
+Rake = 90.0
+Slip_Type = "Reverse"
+Slip_Completeness_Factor = 1.0
+Aseismic = 0.99
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 8.0
+b_value = [ 1.018, 0.236,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Maximum_Magnitude = 8.0
+Minimum_Magnitude = 4.8
+b_value = [ 1.018, 0.236,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 119.113289191592, 14.0644876276553, 119.321905909346, 13.7774870659734, 119.326584654095, 13.6443888800511, 119.598381454636, 13.490186822649, 119.638070978554, 13.3222250025426, 119.907495560805, 13.1153792441264, 120.162230478242, 12.9748216846732, 120.494199256686, 12.938377813396, 120.672191836359, 12.7474821178954, 120.870890200937, 12.641034561546,]
+Upper_Depth = 50.0
+Lower_Depth = 100.0
+Dip = 60.24771487
+[Fault_Model.Slip]
+Value = [ 4.0, 20.0, 25.0, 100.0, 116.0,]
+Weight = [ 0.2, 0.25, 0.35, 0.1, 0.1,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "StrasserIntraslab",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]
+[[Fault_Model]]
+ID = "029"
+Tectonic_Region = "Subduction Intraslab"
+Fault_Name = "Deep Manila Trench 3"
+Rake = 95.0
+Slip_Type = "Reverse"
+Slip_Completeness_Factor = 1.0
+Aseismic = 0.99
+Aspect_Ratio = 1.5
+[[Fault_Model.MFD_Model]]
+Model_Name = "YoungsCoppersmithCharacteristic"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Minimum_Magnitude = 4.8
+Maximum_Magnitude = 8.0
+b_value = [ 0.439, 0.176,]
+
+[[Fault_Model.MFD_Model]]
+Model_Name = "AndersonLucoArbitrary"
+Model_Type = "First"
+MFD_spacing = 0.1
+Model_Weight = 0.5
+Maximum_Magnitude = 8.0
+Minimum_Magnitude = 4.8
+b_value = [ 0.439, 0.176,]
+
+
+[Fault_Model.Fault_Geometry]
+Fault_Typology = "Simple"
+Fault_Trace = [ 119.113289191592, 14.0644876276553, 119.321905909346, 13.7774870659734, 119.326584654095, 13.6443888800511, 119.598381454636, 13.490186822649, 119.638070978554, 13.3222250025426, 119.907495560805, 13.1153792441264, 120.162230478242, 12.9748216846732, 120.494199256686, 12.938377813396, 120.672191836359, 12.7474821178954, 120.870890200937, 12.641034561546,]
+Upper_Depth = 100.0
+Lower_Depth = 300.0
+Dip = 81.44093882
+[Fault_Model.Slip]
+Value = [ 4.0, 20.0, 25.0, 100.0, 116.0,]
+Weight = [ 0.2, 0.25, 0.35, 0.1, 0.1,]
+[Fault_Model.Shear_Modulus]
+Value = [ 30.0,]
+Weight = [ 1.0,]
+[Fault_Model.Magnitude_Scaling_Relation]
+Value = [ "StrasserIntraslab",]
+Weight = [ 1.0,]
+[Fault_Model.Scaling_Relation_Sigma]
+Value = [ 0.0,]
+Weight = [ 1.0,]
+[Fault_Model.Displacement_Length_Ratio]
+Value = [ 1.25e-5,]
+Weight = [ 1.0,]

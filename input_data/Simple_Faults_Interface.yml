@@ -1,0 +1,217 @@
+#*****************************************************************************
+#FAULT FILE IN YAML (Yet Another Markup Language) FORMAT
+#*****************************************************************************
+#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Fault_Model_ID: 002
+Fault_Model_Name: Faults Interface 
+Fault_Model:
+
+    - ID: 021
+      Tectonic_Region: Subduction Interface
+      Fault_Name: Shallow Manila Trench 1
+      Fault_Geometry: {
+          Fault_Typology: Simple,
+          # For simple typology, defines the trace in terms of Long., Lat.
+          Fault_Trace: [120.056488139794, 20.4888291113274,
+                        120.248077953476, 19.9054132051134,
+                        120.309941095562, 19.5695571601802,
+                        120.219605180908, 19.3186725607661,
+                        120.001607051998, 19.0850858261459,
+                        119.733040431811, 18.7801639580133,
+                        119.636256620232, 18.3047696380102,
+                        119.450875198388, 18.0379783542777,
+                        119.183567567656, 17.5663883580338,
+                        119.078799161775, 17.1497271626316,
+                        119.080829322256, 16.7986816817357,
+                        119.153572081965, 16.4295006746644],
+          # Upper Seismogenic Depth (km)
+          Upper_Depth:      0,
+          # Lower Seismogenic Depth (km)
+          Lower_Depth:      50,
+          Strike: ,
+          # Dip (degrees)
+          Dip:     45}
+      Rake: 95
+      Slip_Type: Thrust,
+      Slip_Completeness_Factor: 1,
+      #slip [value_1, value_2, ... value_n]
+      #     [weight_1, weight_2, ... weight_n]
+      Slip: {
+          Value: [4.0, 20.0, 25.0, 100.0, 116.0],
+          Weight: [0.20, 0.25, 0.35, 0.10, 0.10]}
+      #Aseismic Slip Factor
+      Aseismic: 0.99
+      MFD_Model: 
+          # Example of constructor for characteristic earthquake
+        - Model_Name: YoungsCoppersmithCharacteristic
+          # Spacing (magnitude units) of the magnitude frequency distribution
+          MFD_spacing: 0.1
+          # Weight of the model
+          Model_Weight: 0.5
+          Minimum_Magnitude: 4.8
+          # Magnitude of the Characteristic Earthquake
+          Maximum_Magnitude: 8
+          b_value: [0.868,0.057]
+          ####################################################
+        - Model_Name: AndersonLucoArbitrary
+          # Example constructor of the Anderson & Luco (1983) - Arbitrary Exponential 
+          # Type - chooses between type 1 ('First'), type 2 ('Second') or type 3 ('Third')
+          Model_Type: First
+          MFD_spacing: 0.1
+          Model_Weight: 0.5
+          # Maximum Magnitude of the exponential distribution
+          Minimum_Magnitude: 4.8
+          Maximum_Magnitude: 8
+          # b-value of the exponential distribution as [expected, uncertainty]
+          b_value: [0.868,0.057]
+      Megazone: 
+      Shear_Modulus: {
+          Value: [30.],
+          Weight: [1.0]}
+      Magnitude_Scaling_Relation: {
+          Value: [StrasserInterface],
+          Weight: [1.0]}
+      Scaling_Relation_Sigma: {
+          Value: [0.0],
+          Weight: [1.0]}
+      Aspect_Ratio: 1.5
+      Displacement_Length_Ratio: {
+          Value: [1.25E-05],
+          Weight: [1.0]}
+
+    - ID: 022
+      Tectonic_Region: Subduction Interface
+      Fault_Name: Shallow Manila Trench 2
+      Fault_Geometry: {
+          Fault_Typology: Simple,
+          # For simple typology, defines the trace in terms of Long., Lat.
+          Fault_Trace: [119.153572081965, 16.4295006746644,
+                        119.161115880619, 16.1840803955984,
+                        119.048237064563, 15.8212857692178,
+                        119.143208279443, 15.5128191474036,
+                        119.012894916887, 15.2132701218065,
+                        119.054573575693, 14.6418506764076,
+                        119.113289191592, 14.0644876276553],
+          # Upper Seismogenic Depth (km)
+          Upper_Depth:      0,
+          # Lower Seismogenic Depth (km)
+          Lower_Depth:      50,
+          Strike: ,
+          # Dip (degrees)
+          Dip:     45}
+      Rake: 95
+      Slip_Type: Thrust,
+      Slip_Completeness_Factor: 1,
+      #slip [value_1, value_2, ... value_n]
+      #     [weight_1, weight_2, ... weight_n]
+      Slip: {
+          Value: [4.0, 20.0, 25.0, 100.0, 116.0],
+          Weight: [0.20, 0.25, 0.35, 0.10, 0.10]}
+      #Aseismic Slip Factor
+      Aseismic: 0.99
+      MFD_Model: 
+          # Example of constructor for characteristic earthquake
+        - Model_Name: YoungsCoppersmithCharacteristic
+          # Spacing (magnitude units) of the magnitude frequency distribution
+          MFD_spacing: 0.1
+          # Weight of the model
+          Model_Weight: 0.5
+          Minimum_Magnitude: 4.8
+          # Magnitude of the Characteristic Earthquake
+          Maximum_Magnitude: 8
+          b_value: [0.868,0.057]
+          ####################################################
+        - Model_Name: AndersonLucoArbitrary
+          # Example constructor of the Anderson & Luco (1983) - Arbitrary Exponential 
+          # Type - chooses between type 1 ('First'), type 2 ('Second') or type 3 ('Third')
+          Model_Type: First
+          MFD_spacing: 0.1
+          Model_Weight: 0.5
+          # Maximum Magnitude of the exponential distribution
+          Minimum_Magnitude: 4.8
+          Maximum_Magnitude: 8
+          # b-value of the exponential distribution as [expected, uncertainty]
+          b_value: [0.868,0.057]
+      Megazone: 
+      Shear_Modulus: {
+          Value: [30.],
+          Weight: [1.0]}
+      Magnitude_Scaling_Relation: {
+          Value: [StrasserInterface],
+          Weight: [1.0]}
+      Scaling_Relation_Sigma: {
+          Value: [0.0],
+          Weight: [1.0]}
+      Aspect_Ratio: 1.5
+      Displacement_Length_Ratio: {
+          Value: [1.25E-05],
+          Weight: [1.0]}
+
+    - ID: 023
+      Tectonic_Region: Subduction Interface
+      Fault_Name: Shallow Manila Trench 2
+      Fault_Geometry: {
+          Fault_Typology: Simple,
+          # For simple typology, defines the trace in terms of Long., Lat.
+          Fault_Trace: [119.153572081965, 16.4295006746644,
+                        119.161115880619, 16.1840803955984,
+                        119.048237064563, 15.8212857692178,
+                        119.143208279443, 15.5128191474036,
+                        119.012894916887, 15.2132701218065,
+                        119.054573575693, 14.6418506764076,
+                        119.113289191592, 14.0644876276553],
+          # Upper Seismogenic Depth (km)
+          Upper_Depth:      0,
+          # Lower Seismogenic Depth (km)
+          Lower_Depth:      50,
+          Strike: ,
+          # Dip (degrees)
+          Dip:     45}
+      Rake: 95
+      Slip_Type: Thrust,
+      Slip_Completeness_Factor: 1,
+      #slip [value_1, value_2, ... value_n]
+      #     [weight_1, weight_2, ... weight_n]
+      Slip: {
+          Value: [4.0, 20.0, 25.0, 100.0, 116.0],
+          Weight: [0.20, 0.25, 0.35, 0.10, 0.10]}
+      #Aseismic Slip Factor
+      Aseismic: 0.99
+      MFD_Model: 
+          # Example of constructor for characteristic earthquake
+        - Model_Name: YoungsCoppersmithCharacteristic
+          # Spacing (magnitude units) of the magnitude frequency distribution
+          MFD_spacing: 0.1
+          # Weight of the model
+          Model_Weight: 0.5
+          Minimum_Magnitude: 4.8
+          # Magnitude of the Characteristic Earthquake
+          Maximum_Magnitude: 8
+          b_value: [0.868,0.057]
+          ####################################################
+        - Model_Name: AndersonLucoArbitrary
+          # Example constructor of the Anderson & Luco (1983) - Arbitrary Exponential 
+          # Type - chooses between type 1 ('First'), type 2 ('Second') or type 3 ('Third')
+          Model_Type: First
+          MFD_spacing: 0.1
+          Model_Weight: 0.5
+          # Maximum Magnitude of the exponential distribution
+          Minimum_Magnitude: 4.8
+          Maximum_Magnitude: 8
+          # b-value of the exponential distribution as [expected, uncertainty]
+          b_value: [0.868,0.057]
+      Megazone: 
+      Shear_Modulus: {
+          Value: [30.],
+          Weight: [1.0]}
+      Magnitude_Scaling_Relation: {
+          Value: [StrasserInterface],
+          Weight: [1.0]}
+      Scaling_Relation_Sigma: {
+          Value: [0.0],
+          Weight: [1.0]}
+      Aspect_Ratio: 1.5
+      Displacement_Length_Ratio: {
+          Value: [1.25E-05],
+          Weight: [1.0]}
